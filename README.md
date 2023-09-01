@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Alessandra-Nastassja/feed-tech/blob/main/src/assets/feed.png?raw=true">
 </p>
 
 <h1 align="center">Feed Tech</h1>
