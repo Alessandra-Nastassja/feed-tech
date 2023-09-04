@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cy:open": "cypress open",
+    "test": "cypress run"
   },
   "dependencies": {
+    "cypress": "^13.1.0",
     "date-fns": "^2.30.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
@@ -24,6 +27,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "start-server-and-test": "^2.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
